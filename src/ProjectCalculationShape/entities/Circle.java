@@ -3,8 +3,7 @@ package mot.entities;
 import mot.enums.Color;
 
 public class Circle extends Shape {
-	
-	
+
 	private Double radius;
 
 	public Circle() {
@@ -15,8 +14,6 @@ public class Circle extends Shape {
 		super(color);
 		this.radius = radius;
 	}
-	
-
 
 	public Double getRadius() {
 		return radius;
@@ -30,9 +27,5 @@ public class Circle extends Shape {
 	public double area() {
 		return Math.PI * radius * radius;
 	}
-	
-	
-	
-	
-	
+
 }
